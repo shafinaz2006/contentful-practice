@@ -99,7 +99,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+header, footer{
+  text-align: center;
+}
+.card {
+  width: 80%;
+}
+.card img {
+  width: 200px;
+  object-fit: contain;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
